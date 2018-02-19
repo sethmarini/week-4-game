@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+	<meta name="description" content="Psychic Game">
+	<meta name="author" content="Bobby Fresh">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+	
+	<title>Crystal Collector</title>
+
+</head>
+<body>
+
+
+	<div class="jumbotron" >
+
+		<h1 class="display-4">Crystal Collector</h1>
+		<p class="lead">Match the computers score. There are four crystals below with hidden values.</p>
+		<hr class="my-4">
+		<p>Click any crystal to begin!</p>
+	
+		<div class="row" id="scoreboard">
+			<div class="col-sm-12 col-md-6">	
+				<h3>Computer Score: <span id="boardCompScore"></span></h3>
+			</div>
+			
+			<div class="col-sm-12 col-md-6">
+				<h3>Wins:<span id="boardWins"> 0</span></h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-6">
+				<h3>Your Score:<span id="boardMyScore"> 0</span> </h3>
+			</div>
+			
+			<div class="col-sm-12 col-md-6">
+				<h3>Losses:<span id="boardLosses"> 0</span> </h3>
+			</div>
+		</div>		
+	</div>
+
+
+
+
+<div class="container ball">
+
+
+	<div class="row">
+		<div class="col-sm-3 col-md-3 col-lg-3">
+			<img class="rock img-responsive" id="rockOne" src="assets/images/rockOne.jpg" alt="purplerock">		
+		</div>
+		<div class="col-sm-3 col-md-3 col-lg-3">
+			<img class="rock img-responsive" id="rockTwo" src="assets/images/rockTwo.jpg" alt="orangerock">		
+		</div>
+		<div class="col-sm-3 col-md-3 col-lg-3">
+			<img class="rock img-responsive" id="rockThree" src="assets/images/rockThree.jpg" alt="greenrock">		
+		</div>
+		<div class="col-sm-3 col-md-3 col-lg-3">
+			<img class="rock img-responsive" id="rockFour" src="assets/images/rockFour.jpg" alt="bluerock">		
+		</div>
+	</div>
+</div>
+
+
+<!-- animation  -->
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+	<script src="assets/javascript/game.js"></script>
+
+
+<footer>
+	
+</footer>
+</body>
+</html>

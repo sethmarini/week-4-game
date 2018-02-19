@@ -1,0 +1,59 @@
+.jumbotron {
+	text-align: center;
+	margin: auto;
+/*	background-color: #fffc00;*/
+
+}
+
+/*h3 {
+	font-weight: bold;
+}*/
+/*body {
+	background-color: black;
+}*/
+
+.container {
+	margin-top: 50px;
+}
+.display-4 {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.rock:hover {
+	  box-shadow: 5px 10px #888888;
+}
+
+
+.rock:active {
+
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+
+}
+
+
+
+/*animation*/
